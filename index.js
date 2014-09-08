@@ -1,7 +1,5 @@
 'use strict';
 
-var defaults = require('lodash.defaults');
-
 module.exports = function createdAt(schema, options) {
   // Set the default options
   options = options || {};
