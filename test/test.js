@@ -11,6 +11,11 @@ describe('mongoose-created-at', function () {
     mongoose.connect('mongodb://127.0.0.1/mongoose-created-at-test', done);
   });
 
+  // Delete the database after testing
+  after(function (done) {
+    mongoose.connection.db.dropDatabase(done);
+  });
+
   // Level 1 tests
   describe('Level 1', function () {
 
