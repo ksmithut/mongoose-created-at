@@ -1,11 +1,14 @@
 language: node_js
 before_script:
   - sleep 15
+os:
+  - linux
+  - osx
 node_js:
+  - "0.12"
   - "0.11"
   - "0.10"
-services:
-  - mongodb
+  - iojs
 env:
   - secure: HDDpoPlK636dNCXXa40xcPPYOVHFNmyy7krZPMVAA7YVqyNe5g0pTxfwuNjiSO8VaTD2E+r67fb2btCWyXdb1tRWATPeuZw06suK2zgVr6vpMpPDsC4rvmItiOw/jH2S4UNgVKmvpTIyUsFE28pWoPX5ILwLS2XCqi29eOkpZzw=
 after_success: npm run codeclimate
