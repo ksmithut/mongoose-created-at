@@ -1,7 +1,7 @@
 # mongoose-created-at
 
-[![io.js compatibility](https://img.shields.io/badge/io.js-compatible-brightgreen.svg?style=flat)](https://iojs.org/)
-[![NPM version](http://img.shields.io/npm/v/mongoose-created-at.svg?style=flat)](https://www.npmjs.org/package/mongoose-created-at)
+### Deprecated. This functionality is built into mongoose now. See
+[mongoose docs](http://mongoosejs.com/docs/guide.html#timestamps)
 
 [![Dependency Status](http://img.shields.io/david/ksmithut/mongoose-created-at.svg?style=flat)](https://gemnasium.com/ksmithut/mongoose-created-at)
 [![Dependency Status](http://img.shields.io/david/dev/ksmithut/mongoose-created-at.svg?style=flat)](https://gemnasium.com/ksmithut/mongoose-created-at)

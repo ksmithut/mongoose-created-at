@@ -26,13 +26,13 @@
   },
   "homepage": "https://github.com/ksmithut/mongoose-created-at",
   "devDependencies": {
-    "codeclimate-test-reporter": "0.0.4",
+    "codeclimate-test-reporter": "^0.3.1",
     "expect.js": "^0.3.1",
-    "istanbul": "^0.3.5",
-    "jshint": "^2.6.0",
-    "jshint-stylish": "^1.0.0",
-    "mocha": "^2.1.0",
-    "mocha-lcov-reporter": "0.0.1",
-    "mongoose": "^3.8.20"
+    "istanbul": "^0.4.3",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "mocha": "^2.4.5",
+    "mocha-lcov-reporter": "^1.2.0",
+    "mongoose": "^4.4.12"
   }
 }
